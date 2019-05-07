@@ -1,0 +1,31 @@
+h3 {
+    color: red;
+}
+h4 {
+    color: blue;
+}
+#container{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-image: url("book.jpg");
+}
+
+#searchWord {
+    position: relative;
+  left: -115px;
+  top: 175px;
+}
+
+#results-div {
+    position: relative;
+  right: -350px;
+  top: 125px;
+  width: 100px;
+   
+}
+
+#header {
+    text-align: center
+}
