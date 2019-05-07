@@ -17,9 +17,9 @@ app.use(express.static("public"));
 app.get("/data", function(req, res) {
     const keyword = req.query.word;
     if(data.hasOwnProperty(keyword)){
-        res.send(`The word: "${keyword}" does exist!`);
+        res.send(`YUP! the word: <h4>"${keyword}"</h4> does exist within the dictionary!`);
     }else{
-        res.send(`The word: "${keyword}" does not exist!!!`);
+        res.send(`Sorry! But the word: <h3>"${keyword}"</h3> is not a real word`);
     }
 
 });
