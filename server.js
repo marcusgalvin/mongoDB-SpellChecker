@@ -38,7 +38,7 @@ const mySchema = new mongoose.Schema({
 const Word = mongoose.model("Word", mySchema);
 
 
-//---get request  ---- working w/o mongoDB
+//---get request  ---- working w/ mongoDB
 app.get("/data", function(req, res) {
     const keyword = req.query.word;
     if(Word.hasOwnProperty(keyword)){
